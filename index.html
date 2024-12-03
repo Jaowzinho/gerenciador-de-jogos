@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de jogos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav id="nav_um">
+            <img src="img/pngtree-retro-gaming-console-cartoon-png-image_13048783-removebg-preview.png" alt="console" id="console">
+            <p id="Gerenciador_text">Gerenciador de jogos</p>
+        </nav>
+    </header>
+    <nav id="nav_dois">
+        <a href="cadastrar_jogo.html" target="centro">Cadastrar jogo</a>
+        <a href="listar.jsp" target="centro">Listar jogo</a>
+    </nav>
+    <main>
+        <div id="pesquisar">
+            <form method="get" action="procurar_jogo.jsp" target="centro">
+                <label for="nm_jogos" id="l_consultar">Consultar</label>
+                <input  type="text" name="nm_jogos" id="i_consultar" required>
+                <input id="procurar" type="submit" value="Procurar">
+            </form>
+        </div>
+        <iframe src="listar.jsp" name="centro"></iframe>
+    </main>
+    <footer>
+        <div></div>
+    </footer>
+    
+</body>
+</html>

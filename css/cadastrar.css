@@ -1,0 +1,78 @@
+.div_cadastrar{
+    height: 365px;
+    width: 420px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    padding: 20px 17px 14px 17px;
+}
+
+.div_cadastrar h3{
+    font-family: 'Jaro';
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+}
+
+.div_cadastrar p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+}
+
+.div_cadastrar input{
+    height: 41px;
+    width: 412px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.div_cadastrar #salvar{
+    border-radius: 10px;
+    border: 0px;
+    width: 100px;
+    height: 33px;
+    background-color: black;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: white;
+    margin-right: 0px;
+}
+
+@media (max-width: 760px){
+
+    .div_cadastrar{
+        width: 285px;
+        height: 351px;
+        margin: auto;
+    }
+
+    .div_cadastrar input{
+        width: 280px;
+    }
+}
+
+@media (max-width: 413px){
+
+    .div_cadastrar{
+        width: 285px;
+        height: 351px;
+    }
+
+    .div_cadastrar input{
+        width: 280px;
+    }
+}
+
+@media (max-width: 374px){
+
+    .div_cadastrar{
+        width: 230px;
+        height: 390px;
+    }
+
+    .div_cadastrar input{
+        width: 225px;
+    }
+}

@@ -1,0 +1,95 @@
+main{
+    padding: 10px;
+    height: 600px;
+    padding: 10px;
+}
+
+iframe{
+    border: 0px;
+    width:100%;
+    height: 500px;
+}
+
+#pesquisar{
+    background-color: #d9d9d9;
+    height: 83px;
+    width: 696px;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#l_consultar{
+    font-size: 20px;
+    font-family: 'Roboto';
+    margin: auto;
+    
+}
+
+#i_consultar{
+    height: 41px;
+    width: 412px;
+    border-radius: 10px;
+    border: 0px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 21px;
+}
+
+#procurar{
+    height: 41px;
+    width: 111px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    border-radius: 10px;
+    border: 0px;
+    justify-content: center;
+    margin: auto;
+}
+
+@media (max-width: 767px){
+    #pesquisar{
+        width: auto;
+        margin-left: 0px;
+    }
+
+    #l_consultar{
+        font-size: 18px;
+    }
+
+    #i_consultar{
+        width: 150px;
+        font-size: 20px;
+    }
+
+    #procurar {
+        width: 90px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 374px){
+    #l_consultar{
+        font-size: 16px;
+    }
+
+    #i_consultar{
+        width: 120px;
+        font-size: 20px;
+    }
+
+    #procurar {
+        width: 75px;
+        font-size: 16px;
+    }
+
+    .div_cadastrar{
+        width: 235px;
+    }
+
+}

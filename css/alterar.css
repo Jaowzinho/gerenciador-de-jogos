@@ -1,0 +1,135 @@
+.div_alterar{
+    height: 180px;
+    width: 420px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    padding: 20px 17px 14px 17px;
+}
+
+.div_alterar h3{
+    font-family: 'Jaro';
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+}
+
+.div_alterar p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+}
+
+.div_alterar input{
+    height: 41px;
+    width: 412px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.div_alterar #salvar{
+    border-radius: 10px;
+    border: 0px;
+    width: 89px;
+    height: 33px;
+    background-color: black;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: white;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+.div_alterar_dois{
+    height: 440px;
+    width: 420px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    padding: 20px 17px 14px 17px;
+}
+
+.div_alterar_dois h3{
+    font-family: 'Jaro';
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+}
+
+.div_alterar_dois p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+}
+
+.div_alterar_dois input{
+    height: 41px;
+    width: 412px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.div_alterar_dois #salvar{
+    border-radius: 10px;
+    border: 0px;
+    width: 89px;
+    height: 33px;
+    background-color: black;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: white;
+    margin-right: 0px;
+}
+
+@media (max-width: 760px){
+
+    .div_alterar_dois{
+        width: 285px;
+        height: 433px;
+         margin: auto;
+    }
+
+    .div_alterar_dois input{
+        width: 280px;
+    }
+    .div_alterar_dois h3 {
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 413px){
+
+    .div_alterar_dois{
+        width: 285px;
+        height: 433px;
+    }
+
+    .div_alterar_dois input{
+        width: 280px;
+    }
+    
+    .div_alterar_dois h3 {
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 374px){
+
+    .div_alterar_dois{
+        width: 230px;
+        height: 433px;
+    }
+
+    .div_alterar_dois input{
+        width: 225px;
+    }
+    
+    .div_alterar_dois h3 {
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+}
