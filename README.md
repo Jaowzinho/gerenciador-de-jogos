@@ -1,2 +1,2 @@
 # gerenciador-de-jogos
-Gerenciador de jogos web desenvolvida nas aulas de LIMA
+Gerenciador de jogos web desenvolvido nas aulas de LIMA
